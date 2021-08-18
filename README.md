@@ -2332,9 +2332,9 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-named-typed-tuple/main/LICENSE
 
-[@stdlib/array/typed]: https://github.com/stdlib-js/stdlib
+[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed
 
-[@stdlib/array/buffer]: https://github.com/stdlib-js/stdlib
+[@stdlib/array/buffer]: https://github.com/stdlib-js/array-buffer
 
 [json]: http://www.json.org/
 
