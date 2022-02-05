@@ -44,8 +44,26 @@ Named typed tuples can be used wherever [typed arrays][@stdlib/array/typed] are 
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var namedtypedtuple = require( '@stdlib/utils-named-typed-tuple' );
+namedtypedtuple = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-named-typed-tuple@umd/bundle.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-named-typed-tuple@umd/bundle.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.namedtypedtuple;
+})()
+</script>
 ```
 
 <a name="main"></a>
@@ -2215,8 +2233,13 @@ var bool = it.next().done;
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var namedtypedtuple = require( '@stdlib/utils-named-typed-tuple' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-named-typed-tuple@umd/bundle.js"></script>
+<script type="text/javascript">
+(function () {
 
 var fields = [ 'x', 'y' ];
 var opts = {
@@ -2253,6 +2276,11 @@ console.log( p.toString() );
 
 // Serialize the tuple a JSON string:
 console.log( JSON.stringify( p ) );
+
+})()
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -2333,6 +2361,13 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 -->
 
+[umd]: https://github.com/umdjs/umd
+[es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+
+[deno-url]: https://github.com/stdlib-js/utils-named-typed-tuple/tree/deno
+[umd-url]: https://github.com/stdlib-js/utils-named-typed-tuple/tree/umd
+[esm-url]: https://github.com/stdlib-js/utils-named-typed-tuple/tree/esm
+
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
 
@@ -2342,13 +2377,13 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-named-typed-tuple/main/LICENSE
 
-[@stdlib/array/buffer]: https://github.com/stdlib-js/array-buffer
+[@stdlib/array/buffer]: https://github.com/stdlib-js/array-buffer/tree/umd
 
 [json]: http://www.json.org/
 
 <!-- <related-links> -->
 
-[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed
+[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed/tree/umd
 
 <!-- </related-links> -->
 
