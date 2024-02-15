@@ -56,6 +56,11 @@ Named typed tuples can be used wherever [typed arrays][@stdlib/array/typed] are 
 ## Usage
 
 ```javascript
+import namedtypedtuple from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-named-typed-tuple@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-named-typed-tuple/tags). For example,
+
+```javascript
 import namedtypedtuple from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-named-typed-tuple@v0.2.0-esm/index.mjs';
 ```
 
@@ -2232,7 +2237,7 @@ var bool = it.next().done;
 <body>
 <script type="module">
 
-import namedtypedtuple from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-named-typed-tuple@v0.2.0-esm/index.mjs';
+import namedtypedtuple from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-named-typed-tuple@esm/index.mjs';
 
 var fields = [ 'x', 'y' ];
 var opts = {
