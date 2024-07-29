@@ -56,7 +56,7 @@ Named typed tuples can be used wherever [typed arrays][@stdlib/array/typed] are 
 ## Usage
 
 ```javascript
-import namedtypedtuple from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-named-typed-tuple@deno/mod.js';
+import namedtypedtuple from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-named-typed-tuple@v0.2.2-deno/mod.js';
 ```
 
 <a name="main"></a>
@@ -2227,7 +2227,7 @@ var bool = it.next().done;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import namedtypedtuple from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-named-typed-tuple@deno/mod.js';
+import namedtypedtuple from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-named-typed-tuple@v0.2.2-deno/mod.js';
 
 var fields = [ 'x', 'y' ];
 var opts = {
