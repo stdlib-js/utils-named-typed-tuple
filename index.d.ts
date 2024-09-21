@@ -20,7 +20,7 @@
 
 /* eslint-disable max-lines */
 
-/// <reference types="@stdlib/types"/>
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
 import { Iterator as Iter, IterableIterator } from '@stdlib/types/iter';
 import { TypedArray } from '@stdlib/types/array';
