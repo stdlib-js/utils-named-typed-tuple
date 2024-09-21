@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-11)
+## Unreleased (2024-09-21)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
 -   [`3c5fc0d`](https://github.com/stdlib-js/stdlib/commit/3c5fc0d3d544356489d3da56507766eadd556fd1) - **style:** replace tabs with spaces in examples indentation _(by Philipp Burckhardt)_
 
 </details>
