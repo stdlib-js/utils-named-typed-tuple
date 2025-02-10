@@ -390,9 +390,9 @@ y = tuple[ 1 ];
 
 A callback function is provided three arguments:
 
--   `value`: source value
--   `index`: source index
--   `field`: tuple field
+-   `value`: source value.
+-   `index`: source index.
+-   `field`: tuple field.
 
 To set the callback execution context, provide a `thisArg`.
 
@@ -474,8 +474,8 @@ y = tuple[ 1 ];
 
 A callback function is provided two arguments:
 
--   `value`: source object tuple field value
--   `field`: source object tuple field name
+-   `value`: source object tuple field value.
+-   `field`: source object tuple field name.
 
 To set the callback execution context, provide a `thisArg`.
 
@@ -797,10 +797,10 @@ var bool = tuple.every( predicate );
 
 A `predicate` function is provided four arguments:
 
--   `value`: tuple element
--   `index`: tuple index
--   `field`: tuple field name
--   `tuple`: tuple on which the method is invoked
+-   `value`: tuple element.
+-   `index`: tuple index.
+-   `field`: tuple field name.
+-   `tuple`: tuple on which the method is invoked.
 
 To set the callback execution context, provide a `thisArg`.
 
@@ -961,10 +961,10 @@ var p2 = p1.filter( predicate );
 
 A `predicate` function is provided four arguments:
 
--   `value`: tuple element
--   `index`: tuple index
--   `field`: tuple field name
--   `tuple`: tuple on which the method is invoked
+-   `value`: tuple element.
+-   `index`: tuple index.
+-   `field`: tuple field name.
+-   `tuple`: tuple on which the method is invoked.
 
 To set the callback execution context, provide a `thisArg`.
 
@@ -1024,10 +1024,10 @@ var v = tuple.find( predicate );
 
 A `predicate` function is provided four arguments:
 
--   `value`: tuple element
--   `index`: tuple index
--   `field`: tuple field name
--   `tuple`: tuple on which the method is invoked
+-   `value`: tuple element.
+-   `index`: tuple index.
+-   `field`: tuple field name.
+-   `tuple`: tuple on which the method is invoked.
 
 To set the callback execution context, provide a `thisArg`.
 
@@ -1088,10 +1088,10 @@ var field = tuple.findField( predicate );
 
 A `predicate` function is provided four arguments:
 
--   `value`: tuple element
--   `index`: tuple index
--   `field`: tuple field name
--   `tuple`: tuple on which the method is invoked
+-   `value`: tuple element.
+-   `index`: tuple index.
+-   `field`: tuple field name.
+-   `tuple`: tuple on which the method is invoked.
 
 To set the callback execution context, provide a `thisArg`.
 
@@ -1152,10 +1152,10 @@ var idx = tuple.findIndex( predicate );
 
 A `predicate` function is provided four arguments:
 
--   `value`: tuple element
--   `index`: tuple index
--   `field`: tuple field name
--   `tuple`: tuple on which the method is invoked
+-   `value`: tuple element.
+-   `index`: tuple index.
+-   `field`: tuple field name.
+-   `tuple`: tuple on which the method is invoked.
 
 To set the callback execution context, provide a `thisArg`.
 
@@ -1208,10 +1208,10 @@ console.log( str );
 
 The callback is provided four arguments:
 
--   `value`: tuple element
--   `index`: tuple index
--   `field`: tuple field name
--   `tuple`: tuple on which the method is invoked
+-   `value`: tuple element.
+-   `index`: tuple index.
+-   `field`: tuple field name.
+-   `tuple`: tuple on which the method is invoked.
 
 To set the callback execution context, provide a `thisArg`.
 
@@ -1529,10 +1529,10 @@ var z = p2.z;
 
 A callback is provided four arguments:
 
--   `value`: tuple element
--   `index`: tuple index
--   `field`: tuple field name
--   `tuple`: tuple on which the method is invoked
+-   `value`: tuple element.
+-   `index`: tuple index.
+-   `field`: tuple field name.
+-   `tuple`: tuple on which the method is invoked.
 
 To set the callback execution context, provide a `thisArg`.
 
@@ -1594,11 +1594,11 @@ var v = tuple.reduce( fcn, 0.0 );
 
 A callback is provided five arguments:
 
--   `acc`: accumulated result
--   `value`: tuple element
--   `index`: tuple index
--   `field`: tuple field name
--   `tuple`: tuple on which the method is invoked
+-   `acc`: accumulated result.
+-   `value`: tuple element.
+-   `index`: tuple index.
+-   `field`: tuple field name.
+-   `tuple`: tuple on which the method is invoked.
 
 <a name="method-reduce-right"></a>
 
@@ -1638,11 +1638,11 @@ var v = tuple.reduceRight( fcn, 0.0 );
 
 A callback is provided five arguments:
 
--   `acc`: accumulated result
--   `value`: tuple element
--   `index`: tuple index
--   `field`: tuple field name
--   `tuple`: tuple on which the method is invoked
+-   `acc`: accumulated result.
+-   `value`: tuple element.
+-   `index`: tuple index.
+-   `field`: tuple field name.
+-   `tuple`: tuple on which the method is invoked.
 
 <a name="method-reverse"></a>
 
@@ -1852,10 +1852,10 @@ var bool = tuple.some( predicate );
 
 A `predicate` function is provided four arguments:
 
--   `value`: tuple element
--   `index`: tuple index
--   `field`: tuple field name
--   `tuple`: tuple on which the method is invoked
+-   `value`: tuple element.
+-   `index`: tuple index.
+-   `field`: tuple field name.
+-   `tuple`: tuple on which the method is invoked.
 
 To set the callback execution context, provide a `thisArg`.
 
@@ -2336,7 +2336,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
